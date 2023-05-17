@@ -1,0 +1,353 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+}
+
+
+.navbar{
+  background-color: #FF6A13;
+}
+
+#bar{
+  display: none;
+}
+
+@media screen and (max-width:998px){
+  #bare{
+    display: none;
+  }
+}
+
+@media screen and (max-width:998px){
+  #bar{
+    display:block;
+  }
+}
+
+.nav-item:hover{
+  background-color: slategray;
+  color: black;
+  padding: 0px 7px
+}
+
+#tog{
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  background-color: orange;
+  outline: none;
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+
+
+
+.container{
+  max-width: 1000px;
+  margin: 0px  auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-top: 20px;
+border-radius: 4px;
+}
+
+.container{
+  display: no
+}
+
+.container .icon{
+  display: none;
+}
+
+@media screen and (max-width:997px){
+  .container ul{
+    display:none;
+  }
+
+}
+
+@media screen and (max-width:997px){
+  .container ul .icon{
+    display:block;
+  }
+
+}
+
+
+.container h1{
+  font-size: 18px;
+  color: white;
+}
+
+.nav{
+  list-style-type: none;
+}
+.nav li{
+  border-right: 1px solid  rgba(253, 253, 253, 0.2);
+}
+
+.nav li a{
+  padding: 3px 7px;
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+.nav li a:hover{
+  background-color:rgba(250, 184, 98, 0.2);
+}
+
+/* the navigation bar end here and the carousel begins next */
+
+
+.carousels{
+  margin-left:200px ;
+  margin-right:200px ;
+  height: 1000px;
+  border: 1px solid #cecece;
+}
+
+@media screen and (max-width:994px){
+  .carousels{
+    margin:0px 150px;
+  }
+
+}
+
+@media screen and (max-width:800px){
+  .carousels{
+    margin:0px 100px;
+  }
+
+}
+
+@media screen and (max-width:769px){
+  .carousels{
+    margin:0px 0px;
+  }
+
+}
+
+.sec-one{
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+.sec-one img{
+  flex: 1;
+}
+
+@media screen and (max-width:994px){
+  .sec-one{
+   flex-direction: column;
+  }
+  .sec-one img{
+    width: 100%;
+  }
+}
+
+
+
+/* styling of the notice container tsarts here */
+
+.notice{
+  display:flex;
+  gap:10px ;
+  padding: 10px;
+}
+
+@media screen and (max-width:994px){
+  .notice{
+   flex-direction: column;
+  }
+
+}
+
+.notice .left, .right{
+  flex: 1;
+}
+
+.left h3{
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #f1f1f1;
+  color: #FF6A13;
+  pad: 5px;
+}
+
+.left h1{
+  font-size: 15px;
+}
+
+.left p{
+  font-size: 13px;
+  line-height: 1.7;
+  color: gray;
+}
+
+.left button{
+  border: none;
+  background-color: #FF6A13;
+  color: white;
+  font-size: 13px;
+  border-radius: 7px;
+  padding: 5px 12px;
+}
+
+/* the styling of the rightr side strats here */
+
+.right h3{
+
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #f1f1f1;
+  color: #FF6A13;
+  pad: 5px;
+}
+
+.right-content{
+  display: flex;
+}
+
+.right-content h1{
+  font-size: 15px;
+}
+
+.right-content p{
+  font-size: 13px;
+  line-height: 1.7;
+  color: gray;
+}
+
+ .line{
+  padding-left: 10px;
+  border: 1px solid rgb(211, 211, 211);
+  background-color: rgba(226, 225, 223, 0.1);
+}
+
+.dates{
+  display:flex;
+ height: 35px;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ margin: 0px 10px;
+}
+
+@media screen and (max-width:994px){
+  .dates{
+    flex-direction: column;
+    padding-top: 80px;
+
+
+  }
+
+   .text{
+    width: 100%;
+  }
+}
+
+.dates .text{
+  background-color: #f1f1f1;
+  flex: 1;
+
+  padding: 7px;
+  border-radius: 6px;
+}
+
+.text h4{
+  font-size: 16px;
+  color: #FF6A13;
+}
+
+.text span{
+  color:#333;
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.video{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  gap: 20px;
+}
+
+.video div{
+  flex: 1;
+}
+
+@media screen and (max-width:994px){
+  .video{
+   flex-direction: column;
+   margin-top: 100px;
+  }
+
+}
+
+
+@media screen and (max-width:994px){
+  .frame{
+ width: 100%;
+  }
+
+}
+
+.icons{
+  text-align: center;
+  display: flex;
+  background-color: #fdeee5;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width:994px){
+  .icons{
+   flex-direction: column;
+   width: 100%;
+   height: auto;
+
+  }
+
+  .icons img{
+    width: 200px;
+  }
+
+}
+
+
+.icons div{
+  padding: 30px;
+}
+
+.icons img{
+ border-radius: 50%;
+}
+
+
+.icons p{
+  font-size: 12px;
+  text-align: center;
+
+}
+
+
+.footer{
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+
+}

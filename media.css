@@ -1,0 +1,193 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.back{
+  background-color: #f1f1f1;
+
+}
+
+
+.navbar{
+  background-color: #FF6A13;
+}
+
+
+#bar{
+  display: none;
+}
+
+@media screen and (max-width:998px){
+  #bare{
+    display: none;
+  }
+}
+
+@media screen and (max-width:998px){
+  #bar{
+    display:block;
+  }
+}
+
+.nav-item:hover{
+  background-color: slategray;
+  color: black;
+  padding: 0px 7px
+}
+
+#tog{
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  background-color: orange;
+  outline: none;
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+
+
+.container{
+  max-width: 1000px;
+  margin: 0px  auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-top: 20px;
+
+}
+
+.container .icon{
+  display: none;
+}
+
+@media screen and (max-width:997px){
+  .container ul{
+    display:none;
+  }
+
+}
+
+@media screen and (max-width:997px){
+  .container ul .icon{
+    display:block;
+  }
+
+}
+
+
+.container h1{
+  font-size: 18px;
+  color: white;
+}
+
+.nav{
+  list-style-type: none;
+}
+.nav li{
+  border-right: 1px solid  rgba(253, 253, 253, 0.2);
+}
+
+.nav li a{
+  padding: 3px 7px;
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+.nav li a:hover{
+  background-color:rgba(250, 184, 98, 0.2);
+}
+
+/* the navigation bar end here and the carousel begins next */
+
+.main{
+  margin-left:200px ;
+  margin-right:200px ;
+  background-color: white;
+  border: 1px solid #f5f5f5;
+  padding: 20px;
+}
+
+.links{
+  font-size: 13px;
+  display: flex;
+  justify-content:flex-end;
+}
+
+.links div{
+  padding-right: 10px;
+}
+
+.main h1{
+  color: #FF6A13;
+  font-size: 25px;
+}
+
+
+@media screen and (max-width:885px){
+  .main{
+    margin: 0;
+  }
+
+  .main h1{
+    font-size: 20px;
+  }
+}
+
+
+.shape{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.s-content{
+  width: 300px;
+  padding: 10px;
+  font-size: 14px;
+flex: 1;
+}
+
+.shape img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+.shapes{
+  display: flex;
+  justify-content: flex-end;
+}
+.cone{
+  width: 300px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.cone img{
+  width: 100%;
+  height: auto;
+}
+
+.shapese{
+display: flex;
+}
+
+.s-con{
+  width: 150px;
+  padding: 10px;
+  font-size: 14px;
+
+}
+
+.shapese img{
+  width: 100%;
+  height: auto;
+}
